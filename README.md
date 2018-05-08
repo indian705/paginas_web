@@ -1,2 +1,2 @@
-# paginas_web
-Ejercicios
+# Paginas_web
+Ejercicios del módulo 1
