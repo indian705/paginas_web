@@ -9,17 +9,32 @@
         .separado {
             padding-left: 5rem;
         }
+
         .h2 {
             display: block;
             font-size: 1.5rem;
         }
+
         .footer {
             border-top: 2px solid coral;
             margin-top: 1rem;
-            padding-top: 1rem 
+            padding-top: 1rem;
         }
+
         .vertebrados {
-            list-style: decimal
+            list-style: decimal;
+        }
+
+        .dialog {
+        display: none;
+        }
+        .verde {
+            background-color: chartreuse;
+            border: 0px solid;
+        }
+        dd,
+        dt {
+            display: inline;
         }
     </style>
 </head>
@@ -37,52 +52,82 @@
     </nav>
     <main>
         <article>
-            <h2>Tipos de párrafos</h2>
+            <h2>Tipos de parrafos</h2>
             <pre>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quas cumque consectetur obcaecati laudantium labore tempore, soluta quam doloribus. 
-                Mollitia eligendi, beatae laborum non obcaecati maxime molestias at maiores deserunt aspernatur.</pre>
-            <p>Id veritatis <span class="separado">iure</span>  tempore molestiae! Rem pariatur, blanditiis, delectus itaque laboriosam doloribus neque doloremque commodi eveniet ex quam perferendis odit! Optio aliquam consequuntur, voluptas quisquam ex et harum aspernatur commodi.</p>
-            <p>Corporis aliquam aspernatur iusto, iure consequuntur aut maiores quasi laboriosam sequi necessitatibus tenetur, atque commodi exercitationem similique dolor accusamus magni reprehenderit et eligendi provident praesentium harum mollitia. Reprehenderit, tempora aspernatur.</p>
-            <p>Velit, in. Error voluptatum doloribus earum voluptates voluptate maxime perferendis eos, fuga, consequatur tenetur, ipsa reiciendis sint. Ullam eos distinctio, nisi odio laborum eum voluptatem dolores optio ut velit quam!</p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Veritatis temporibus nulla officia quidem earum. 
+                Eos corporis amet sit. 
+                Aut nam voluptatum incidunt temporibus.
+                Possimus libero neque voluptates repellat autem aliquid!</pre>
+            <p>Numquam
+                <span class="separado">facilis</span> rem eveniet ex veniam libero
+                <br> minus ipsa veritatis nemo reiciendis
+                <br> fugiat animi incidunt obcaecati consequatur
+                <br> expedita exercitationem, ipsum minima.
+                <br> Minima dolores enim unde natus qui totam quasi non!</p>
+            <p>Quidem autem repudiandae necessitatibus numquam natus soluta, quod tempora eius sequi, unde deleniti id? Accusamus
+                consequuntur, provident sit eligendi culpa, libero ex sed dolores totam iusto deleniti delectus. Commodi,
+                harum.
+            </p>
+            <p>Vitae totam sint minima placeat doloremque voluptate tempore ipsa amet a magni impedit, sed iste facere cupiditate
+                consequuntur itaque earum delectus animi nulla qui non cum quisquam similique? Similique, laudantium.</p>
         </article>
-        <article></article>
-            <h2>Uso de listas</h2>
-            <ul>
+        <article>
+            <h2>Uso de listas. </h2>
+            <h3>Tipos de vertebrados</h3>
+            <ol class="vertebrados">
                 <li>Peces</li>
-                <li>Reptiles</li>
-                    <ol>
+                <li>Reptiles
+                    <ol type="I">
                         <li>Tortugas</li>
                         <li>Cocodrilos</li>
                         <li>Lagartos</li>
                         <li>Serpientes</li>
                     </ol>
-                <li>Aves</li>
+                </li>
+
+            </ol>
+            <p>Finalmente están los vertebrados mas evoluciionados</p>
+            <ol start="3">
+                <li>Aves
                     <ul>
                         <li>Rapaces</li>
-                        <li>Pájaros</li>
+                        <li>Pajaros</li>
                     </ul>
-                <li>Mamíferos</li>
-            </ul>
+                </li>
+                <li>Mamiferos</li>
+            </ol>
+
             <h3>Definiciones</h3>
-                <dl>
-                    <dt>HTML:</dt>
+            <dl>
+                <div>
+                    <dt>HTML: </dt>
                     <dd>lenguaje de marcas</dd>
+                </div>
+                <div>
                     <dt>CSS:</dt>
-                    <dd>lenguaje de estilos</dd>
+                    <dd>lenjuaje de estilos</dd>
+                </div>
+                <div>
                     <dt>JS:</dt>
                     <dd>lenguaje de scripts</dd>
-                </dl>
+                </div>
+            </dl>
+        </article>
         <article>
             <h2>Desplegables</h2>
-            <details>
-
-                <summary>Diseño web</summary>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas enim dicta nesciunt aspernatur. Architecto, fugit? Praesentium distinctio eum temporibus unde consectetur repellendus accusamus nihil nobis reiciendis nostrum! Maiores, doloribus asperiores.</p>
-
+            <details>                
+                <summary>Diseño Web</summary>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id maiores odio illo tenetur ea nisi velit! Cumque corporis impedit debitis sit, dolorem excepturi, incidunt omnis, vero molestiae esse magnam quisquam.</p>
             </details>
-        </article>
+            <dialog open class="verde">
+                <p>Esto es información extra</p>
+                <button>Cerrar</button>
+            </dialog>
+            <button>Más información</button>
 
+
+        </article>
     </main>
     <aside></aside>
     <footer class="footer">
