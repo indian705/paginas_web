@@ -19,6 +19,9 @@ main p{
     width:15%;
     float: left;    
 }
+main [title="Virgilio"]{
+    background-color: blueviolet
+}
 footer {
     clear:both;
 }
