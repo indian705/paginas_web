@@ -1,0 +1,46 @@
+body {
+    margin:2%;
+}
+h1 {
+    background-color: aquamarine;
+    color:orange;
+    font-size: 3rem;
+    margin:2%;
+}
+
+nav li {
+    width:calc(100%/3);
+    float:left;
+    padding-left:5rem;
+    padding-bottom: 2rem;
+}
+
+img {
+    border:0.2rem solid greenyellow;
+    padding: 1rem;
+    background-color:orangered;
+}
+
+h2 {
+    color:blueviolet;
+    font-size: 2rem;
+    margin:1%;
+    margin-top:3%;
+    padding: 0.5rem;
+    background-color:yellowgreen
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+footer address {
+    border-top:1px solid;
+    padding-top:1rem;
+    margin-top:1%;
+    font-style:italic;
+}
+
+strong {
+    font-weight: 900;
+}

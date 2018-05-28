@@ -1,0 +1,14 @@
+:root{
+    --color-primary:aquamarine;
+    --color-secundary:rgb(173, 171, 25);
+    --aire-basico:1rem;
+}
+
+
+header {
+    background-color: var(--color-primary);
+    color:var(--color-secundary) ;
+}
+header h1{
+    padding: var(--aire-basico);
+}
