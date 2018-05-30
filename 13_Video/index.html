@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedia</title>
+    <style>
+        .cam iframe {
+            width: 80%;
+            height: 50vh;
+        }
+        video {
+            width: 40%
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Multimedia en la web</h1>
+    </header>
+    <div>
+        <h2>Ejemplo de img</h2>
+        <img src="./assets/komodo.jpg" alt="Dragón...">
+    </div>
+    <div>
+        <h2>Ejemplo de object</h2>
+        <object data="./assets/videoplayback.mp4" type="video/mp4"></object>
+    </div>
+    <div>
+        <h2>Ejemplo de embed</h2>
+        <embed src="./assets/videoplayback.mp4" type="video/mp4">
+    </div>
+    
+    <div class="cam">
+        <h2>Ejemplo de iframe</h2>
+        <iframe src="http://www.madrid.org/cs/Satellite?pagename=ComunidadMadrid/Home" frameborder="0"></iframe>
+    </div>
+    <div>
+        <h2>Ejemplo de iframe de youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0HVB6_IWUMQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div>
+        <h2>Video propio</h2>
+        <video controls
+         src="./assets/delfines.webm">Existe un problema con el video</video>
+    </div>
+    <div>
+        <h2>Video propio con source</h2>
+        <video controls> 
+            <source src="./assets/delfines.webm" type="">
+            <source src="./assets/videoplayback.mp4" type="">    
+        </video>
+    </div>
+</body>
+</html>
